@@ -18,4 +18,5 @@ exec /opt/go/bin/google_auth_proxy 	-cookie-domain="<%= @cookie_domain %>" \
 					-google-apps-domain="<%= @google_apps_domain %>" \
 					-http-address="<%= @listen_address %>" \
 					-redirect-url="<%= @redirect_url%>" \
-					-upstream="<%= @upstreams %>"     
+					-upstream="<%= @upstreams %>" \
+					-magic-token="<%= @magic_token %>"
