@@ -27,7 +27,8 @@ action :run do
       :google_apps_domain => new_resource.google_apps_domain,
       :listen_address => new_resource.listen_address,
       :redirect_url => new_resource.redirect_url,
-      :upstreams => new_resource.upstream.first #TODO test multiple upstreams
+      :upstreams => new_resource.upstream.first, #TODO test multiple upstreams
+      :magic_token => new_resource.magic_token
     )
   end
 
