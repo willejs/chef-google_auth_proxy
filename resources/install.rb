@@ -15,5 +15,5 @@ attribute :listen_address, :kind_of => String, :default => "127.0.0.1:4180"
 attribute :redirect_url, :kind_of => String
 
 attribute :upstream, :kind_of => Array, :default => "127.0.0.1:4181"
-
+attribute :magic_token, :kind_of => String
 
